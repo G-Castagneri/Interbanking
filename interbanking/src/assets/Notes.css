@@ -1,0 +1,99 @@
+section {
+  width: 80%;
+  display: flex !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.service_title {
+  width: 70%;
+  display: flex;
+  margin: 50px auto !important;
+}
+.service_title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400 !important;
+  font-size: 40px;
+}
+
+.container_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.areas_style {
+  width: 500px;
+  height: 200px;
+  margin: 20px;
+  padding: 10px;
+  border: 3px solid #a333f5;
+  border-radius: 20px 20px 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+.search_text_style {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+input {
+  width: 500px;
+  height: 50px;
+  margin: 50px 20px 0;
+  padding: 10px;
+  border: 3px solid #a333f5;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.card_container {
+  display: flex; 
+  margin: auto;
+
+
+}
+
+/*
+Estilos de Card MUI
+*/
+
+.css-q5l937-MuiPaper-root-MuiCard-root {
+  margin: 20px !important;
+  min-width: 200px !important;
+  max-width: 500px !important;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08) !important;
+  position: relative !important;
+  background: #fff !important;
+  padding: 15px !important;
+  border-radius: 20px !important;
+  margin: 5rem 0 !important;
+
+}
+.css-ahj2mt-MuiTypography-root{
+  padding-bottom: 15px !important;
+}
+
+.css-1t6e9jv-MuiCardActions-root button{
+  width: 100% !important;
+
+}
+
+
+@media only screen and  (max-width: 800px) {
+    .service_title h2{
+      font-size: 20px;
+    }
+    input {
+      width: 320px;
+      height: 25px;
+    }
+    .areas_style {
+      width: 320px;
+      height: 100px;
+    }
+}

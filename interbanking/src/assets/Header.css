@@ -1,0 +1,42 @@
+header{
+background-color: #F4F5F9;
+}
+
+.header_container{
+  display: flex; 
+  justify-content: space-between;
+  width: 100%;
+}
+
+header img {
+  width: 200px;
+  margin: 30px;
+}
+
+header h1{
+  display: flex;
+  color: #5E26CE;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  align-items: center;
+  flex-grow: 0.7;
+}
+
+@media only screen and  (max-width: 1000px) {
+  header h1{
+    font-size: 40px
+  }
+  header img{
+    width: 100px;
+  }
+}
+
+@media only screen and  (max-width: 500px) {
+  header h1{
+    font-size: 30px
+  }
+  header img{
+    width: 50px;
+  }
+}
