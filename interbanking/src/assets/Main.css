@@ -1,5 +1,5 @@
 section {
-  width: 80%;
+  width: 90%;
   display: flex !important;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -52,10 +52,8 @@ input {
 }
 
 .card_container {
-  display: flex; 
+  display: flex;
   margin: auto;
-
-
 }
 
 /*
@@ -72,28 +70,28 @@ Estilos de Card MUI
   padding: 15px !important;
   border-radius: 20px !important;
   margin: 5rem 0 !important;
-
 }
-.css-ahj2mt-MuiTypography-root{
+.css-ahj2mt-MuiTypography-root {
   padding-bottom: 15px !important;
 }
 
-.css-1t6e9jv-MuiCardActions-root button{
+.css-1t6e9jv-MuiCardActions-root button {
   width: 100% !important;
-
 }
 
-
-@media only screen and  (max-width: 800px) {
-    .service_title h2{
-      font-size: 20px;
-    }
-    input {
-      width: 320px;
-      height: 25px;
-    }
-    .areas_style {
-      width: 320px;
-      height: 100px;
-    }
+@media only screen and (max-width: 800px) {
+  .service_title h2 {
+    font-size: 20px;
+  }
+  input {
+    width: 320px;
+    height: 25px;
+  }
+  .areas_style {
+    width: 320px;
+    height: 100px;
+  }
+  section{
+    width: 320px;
+  }
 }

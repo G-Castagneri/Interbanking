@@ -1,5 +1,3 @@
-import React from "react";
-
 import NotesComponent from "./container/notesComponent/NotesComponent";
 import "./assets/App.css";
 

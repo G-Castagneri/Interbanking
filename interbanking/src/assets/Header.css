@@ -1,9 +1,9 @@
-header{
-background-color: #F4F5F9;
+header {
+  background-color: #f4f5f9;
 }
 
-.header_container{
-  display: flex; 
+.header_container {
+  display: flex;
   justify-content: space-between;
   width: 100%;
 }
@@ -13,30 +13,36 @@ header img {
   margin: 30px;
 }
 
-header h1{
+header h1 {
   display: flex;
-  color: #5E26CE;
-  font-family: 'Montserrat', sans-serif;
+  color: #5e26ce;
+  font-family: "Montserrat", sans-serif;
   font-size: 80px;
   font-weight: 700;
   align-items: center;
   flex-grow: 0.7;
 }
 
-@media only screen and  (max-width: 1000px) {
-  header h1{
-    font-size: 40px
+@media only screen and (max-width: 1000px) {
+  header h1 {
+    font-size: 40px;
   }
-  header img{
+  header img {
     width: 100px;
+  }
+  .service_title h2 {
+    font-size: 30px;
   }
 }
 
-@media only screen and  (max-width: 500px) {
-  header h1{
-    font-size: 30px
+@media only screen and (max-width: 500px) {
+  header h1 {
+    font-size: 30px;
   }
-  header img{
+  header img {
     width: 50px;
+  }
+  .service_title h2 {
+    font-size: 20px;
   }
 }
